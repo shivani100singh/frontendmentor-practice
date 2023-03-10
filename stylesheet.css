@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family:[Outfit](https://fonts.google.com/specimen/Outfit) */
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.boundary{
+    height: 360px;
+    width: 240px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -180px;
+    left: 50%;
+    margin-left: -120px;
+    /* margin: 0 auto; */
+    /* margin-top: 95px;  */
+    padding: 10px;
+}
+/* .innerBox{
+    height:180px ;
+    width: 200px;
+    background-color: skyblue;
+   border-radius: 5px;
+    padding: 20px; 
+} */
+.qrCode{
+    height: 220px;
+    width: 220px;
+    border-radius: 6px;
+    /* margin: 10px; */
+}
+.lowerHalf{
+    width: 180px;
+    height: 40px;
+    /* border:1px grey solid; */
+    margin: auto;
+    margin-top: 10px;
+    /* margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px; */
+    text-align: center;
+    font-weight: 700;
+}
+.lowerHalf p{
+    font-size: 15px;
+}
+
+.lastPart {
+    width: 190px;
+    height:60px;
+    /* border:1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    /*margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; */
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+.lastPart p{
+    font-size: 12px;
+}
